@@ -1,0 +1,16 @@
+.card__website{
+  max-width: 456px;
+  align-self: flex-end;
+  grid-column: 2/3;
+  grid-row: 1/2;
+
+}
+
+@media screen and (max-width: 767px) {
+  .card__website {
+    margin-left: 16px;
+    margin-right: 16px;
+    grid-column: auto;
+    grid-row: auto;
+  }
+}

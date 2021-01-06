@@ -1,0 +1,27 @@
+.card__title {
+  max-width: 460px;
+  font-size: 72px;
+  line-height: 1.05;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+@media screen and (max-width: 1023px) {
+  .card__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card__title {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 32px;
+    grid-column: auto;
+    grid-row: auto;
+  }
+}

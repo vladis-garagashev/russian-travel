@@ -1,0 +1,21 @@
+.card__paragraph {
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin: 0;
+  margin-top: 26px;
+  padding: 0;
+  grid-column: 2/3;
+
+}
+
+.card__paragraph:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .card__paragraph {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+}
