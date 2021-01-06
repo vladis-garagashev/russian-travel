@@ -2,19 +2,19 @@
   src: url('./Inter-Regular.woff'), url('./Inter-Regular.woff2');
   font-family: 'Inter';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @font-face {
   src: url('./Inter-Bold.woff'), url('./Inter-Bold.woff2');
   font-family: 'Inter';
   font-style: bold;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 @font-face {
-  src: url('./Inter-Italic.woff'), url('./Inter-Italic.woff2');
+  src: url('./Inter-ExtraBold.woff'), url('./Inter-ExtraBold.woff2');
   font-family: 'Inter';
-  font-style: italic;
-  font-weight: italic;
+  font-style: normal;
+  font-weight: 900;
 }
