@@ -1,11 +1,8 @@
 .cover {
   width: calc(100% - 96px);
-  background-image: url(../../images/cover__background.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   margin: 0 auto;
   margin-top: 92px;
+  display: grid;
   position: relative;
 }
 

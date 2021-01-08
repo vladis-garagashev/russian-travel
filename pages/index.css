@@ -9,13 +9,14 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/_type/header__lang-link_type_ru.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 @import url(../blocks/content/content.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -39,6 +40,7 @@
 @import url(../blocks/card/__paragraph/card__paragraph.css);
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/cover/__title/cover__title.css);
@@ -48,242 +50,3 @@
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__copyright/footer__copyright.css);
-
-
-/*
-@media screen and (max-width: 1279px) {
-  .lead {
-    margin-top: 48px;
-    width: calc(100% - 96px);
-  }
-
-  .lead__image {
-    margin-top: 56px;
-  }
-
-  .intro {
-    margin-left: 48px;
-
-  }
-
-  .photo-grid {
-    gap: 14px;
-  }
-
-  .places {
-    width: calc(100% - 96px);
-  }
-
-  .card {
-
-  gap: 48px 32px;
-  }
-
-  .cover {
-    width: 100%;
-  }
-
-  .cover__title {
-    margin-top: 195px;
-  }
-
-  .cover__subtitle {
-    margin-bottom: 195px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .header {
-    width: calc(100% - 48px);
-
-  }
-
-  .lead {
-    width: 100%;
-  }
-
-  .lead__title {
-    font-size: 44px;
-  }
-
-  .lead__subtitle {
-    font-size: 16px;
-  }
-
-  .lead__caption {
-    margin-left: 24px;
-  }
-
-  .intro {
-    width: calc(100% - 48px);
-    margin-top: 88px;
-    margin-left: 24px;
-    margin-right: 24px;
-  }
-
-  .photo-grid {
-    width: calc(100% - 48px);
-    margin-top: 88px;
-    margin-left: 24px;
-    margin-right: 24px;
-    gap: 16px;
-  }
-
-  .places {
-    margin-top: 88px;
-    width: calc(100% - 48px);
-    gap: 73px;
-  }
-
-  .card {
-    gap: 48px 28px;
-  }
-
-  .card__title {
-    font-size: 42px;
-  }
-
-  .card__paragraph {
-    margin-top: 25px;
-    font-size: 16px;
-  }
-
-  .cover {
-    margin-top: 90px;
-  }
-
-  .cover__title {
-    margin-top: 115px;
-  }
-
-  .cover__subtitle {
-    margin-bottom: 115px;
-  }
-
-  .footer {
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 88px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header {
-    margin-top: 16px;
-    width: calc(100% - 24px);
-
-  }
-
-  .header__lang-link {
-    font-size: 16px;
-  }
-
-  .logo {
-    width: 142px;
-    height: 42px;
-  }
-
-  .lead__image {
-    margin-top: 40px;
-  }
-
-  .lead__subtitle {
-    margin-top: 16px;
-  }
-
-  .lead__caption {
-    margin-left: 16px;
-  }
-
-  .intro {
-    width: calc(100% - 32px);
-    margin-top: 64px;
-    margin-left: 16px;
-    margin-right: 16px;
-  }
-
-  .intro__title {
-    font-size: 32px;
-    line-height: 1.9;
-  }
-
-  .photo-grid {
-    width: calc(100% - 32px);
-    margin-top: 64px;
-    margin-left: 16px;
-    margin-right: 16px;
-    gap: 12px;
-  }
-
-  .places {
-    width: 100%;
-    margin-top: 64px;
-    gap: 50px;
-  }
-  .card {
-    grid-template-columns: 1fr;
-    gap: 32px;
-  }
-
-  .card__image {
-    grid-row: auto;
-  }
-
-  .card__title {
-    margin-left: 16px;
-    margin-right: 16px;
-    font-size: 32px;
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .card__website {
-    margin-left: 16px;
-    margin-right: 16px;
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .card__text {
-    margin-left: 16px;
-    margin-right: 16px;
-    grid-column: auto;
-    grid-row: auto;
-  }
-
-  .cover__title {
-    font-size: 32px;
-    margin-top: 33px;
-  }
-
-  .cover {
-    margin-top: 66px;
-  }
-
-  .cover__subtitle {
-    font-size: 14px;
-    margin-bottom: 33px;
-  }
-
-  .footer {
-    margin-top: 64px;
-    margin-left: 16px;
-    margin-right: 118px;
-    flex-direction: column;
-  }
-
-  .footer__links {
-    grid-auto-flow: row;
-    gap: 32px;
-  }
-
-  .footer__link {
-    font-size: 24px;
-  }
-
-  .footer__copyright {
-    margin-top: 48px;
-  }
-}
-*/

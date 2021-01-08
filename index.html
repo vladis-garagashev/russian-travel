@@ -16,7 +16,7 @@
       <img src="./images/logo.svg" alt="Логотип" class="logo">
       <ul class="header__lang-links">
         <li>
-          <a class="header__lang-link header__lang-link_type_ru" href="#" target="_blank">Ru</a>
+          <a class="header__lang-link header__lang-link_active" href="#" target="_blank">Ru</a>
         </li>
         <li>
           <a class="header__lang-link" href="#" target="_blank">En</a>
@@ -28,8 +28,10 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img src="./images/lead__img.jpg" alt="Путешествия по России" class="lead__image">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__figure">
+          <img src="./images/lead__img.jpg" alt="Путешествия по России" class="lead__image">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
 
       <section class="intro">
@@ -86,7 +88,7 @@
         <article class="card">
           <h2 class="card__title">Кольский</h2>
           <div class="card__website">
-            <h3 class="card__link-title">URL</h3>
+            <p class="card__link-title">URL</p>
             <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="card__link"
               target="_blank">National Geographic</a>
           </div>
@@ -106,7 +108,7 @@
         <article class="card">
           <h2 class="card__title">Алтай</h2>
           <div class="card__website">
-            <h3 class="card__link-title">URL</h3>
+            <p class="card__link-title">URL</p>
             <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="card__link"
               target="_blank">Facebook</a>
           </div>
@@ -126,7 +128,7 @@
         <article class="card">
           <h2 class="card__title">Зимний Байкал</h2>
           <div class="card__website">
-            <h3 class="card__link-title">URL</h3>
+            <p class="card__link-title">URL</p>
             <a href="https://vk.com/baikalmile" class="card__link" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img src="./images/places__image-4.jpg" alt="Зимний Байкал" class="card__image">
@@ -145,7 +147,7 @@
         <article class="card">
           <h2 class="card__title">Карелия</h2>
           <div class="card__website">
-            <h3 class="card__link-title">URL</h3>
+            <p class="card__link-title">URL</p>
             <a href="http://vodlozero.ru" class="card__link" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img src="./images/places__image-5.jpg" alt="Карелия" class="card__image">
@@ -161,6 +163,7 @@
       </section>
 
       <section class="cover">
+        <img src="./images/cover__background.jpg" alt="" class="cover__background">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
           <div class="cover__overlay"></div>
           <h2 class="cover__title">До Байкала «на собаках»</h2>
